@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Algorithms Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 Quantum Algorithms Explorer</h1>
+            <p>Explore and understand fundamental quantum computing algorithms</p>
+        </header>
+
+        <nav class="navbar">
+            <input type="text" id="searchInput" placeholder="Search algorithms..." class="search-box">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="basic">Basic</button>
+                <button class="filter-btn" data-filter="intermediate">Intermediate</button>
+                <button class="filter-btn" data-filter="advanced">Advanced</button>
+            </div>
+        </nav>
+
+        <main class="algorithms-grid" id="algorithmsList">
+            <!-- Algorithm cards will be injected here -->
+        </main>
+
+        <div id="algorithmDetail" class="modal hidden">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="detailContent"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Quantum Exploration. Educational Platform for Quantum Computing.</p>
+    </footer>
+
+    <script src="algorithms.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

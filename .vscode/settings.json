@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd /Users/nikhiljethava/quantum-exploration && python3 -m py_compile serve\\.py && echo \"✓ serve\\.py syntax is valid\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
