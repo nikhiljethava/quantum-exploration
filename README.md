@@ -1,5 +1,7 @@
 # Quantum Exploration
 
+*Last Updated: March 18, 2026*
+
 An educational application for exploring and understanding quantum algorithms. This project is designed to provide interactive demonstrations and implementations of fundamental quantum computing concepts and algorithms.
 
 ## Overview
